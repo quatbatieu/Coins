@@ -1,0 +1,45 @@
+.center {
+  margin-top: 50px;
+  max-width: 1296px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 50px;
+  .title {
+    .bigwin {
+      font: 800 18px/18px FuturaBold;
+      color: #f5f6f7;
+    }
+    .tablea {
+      padding: 1rem;
+      background-color: #161f2c;
+      border-radius: 1.25rem;
+      display: flex;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      .righta {
+        table {
+          thead {
+            padding-bottom: 20px;
+            tr {
+              th {
+                color: #f5f6f7;
+                padding-left: 130px;
+                padding-bottom: 15px;
+              }
+            }
+          }
+          tbody {
+            tr {
+              td {
+                color: #99a4b0;
+                padding-left: 150px;
+                padding-bottom: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

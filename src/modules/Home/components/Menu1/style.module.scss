@@ -1,0 +1,45 @@
+.center {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  margin-top: 45px;
+  .lobby {
+    border-radius: 30px;
+    background: #2b2e35;
+    .polite {
+      transform: translate3d(-2.5px, 0px, 0px);
+      display: flex;
+      flex-wrap: nowrap;
+      .button1 {
+        color: white;
+        font-weight: 800;
+        background: #2283f6;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 10px;
+        margin: 0 20px;
+        text-align: center;
+        .inner {
+          margin-left: -2px;
+          display: flex;
+          .box {
+            width: 1.75rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+              width: 1.75rem;
+              height: 1.75rem;
+              opacity: 1;
+            }
+          }
+          .names {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}

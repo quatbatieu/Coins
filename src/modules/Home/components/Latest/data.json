@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "gameIcon": "https://coins.game/assets/svgGame/Dice.svg",
+    "gameName": "Dice",
+    "playerName": "ButteJe",
+    "playValue": "0.20000000",
+    "playWinAmount": "0.20631579"
+  },
+  {
+    "id": 2,
+    "gameIcon": "https://coins.game/assets/svgGame/Hilo.svg",
+    "gameName": "Hilo",
+    "playerName": "sanjahimik",
+    "playValue": "0.20000000",
+    "playWinAmount": "3.30105264"
+  },
+  {
+    "id": 3,
+    "gameIcon": "https://coins.game/assets/svgGame/Plinko.svg",
+    "gameName": "Plinko",
+    "playerName": "BLCKPINK",
+    "playValue": "0.20000000",
+    "playWinAmount": "0.20634539"
+  },
+  {
+    "id": 4,
+    "gameIcon": "https://coins.game/assets/svgGame/Dice.svg",
+    "gameName": "Dice",
+    "playerName": "ButteJe",
+    "playValue": "0.20000000",
+    "playWinAmount": "0.20631258"
+  },
+  {
+    "id": 5,
+    "gameIcon": "https://coins.game/assets/svgGame/Hilo.svg",
+    "gameName": "Hilo",
+    "playerName": "Elizabeth",
+    "playValue": "0.20000000",
+    "playWinAmount": "0.20631147"
+  },
+  {
+    "id": 6,
+    "gameIcon": "https://coins.game/assets/svgGame/Plinko.svg",
+    "gameName": "Plinko",
+    "playerName": "Rebecca",
+    "playValue": "0.20000000",
+    "playWinAmount": "0.20631369"
+  },
+  {
+    "id": 7,
+    "gameIcon": "https://coins.game/assets/svgGame/Dice.svg",
+    "gameName": "Dice",
+    "playerName": "Sarah",
+    "playValue": "0.20000000",
+    "playWinAmount": "0.20631987"
+  },
+  {
+    "id": 8,
+    "gameIcon": "https://coins.game/assets/svgGame/Hilo.svg",
+    "gameName": "Hilo",
+    "playerName": "Jennifer",
+    "playValue": "0.20000000",
+    "playWinAmount": "0.20631654"
+  },
+  {
+    "id": 9,
+    "gameIcon": "https://coins.game/assets/svgGame/Plinko.svg",
+    "gameName": "Plinko",
+    "playerName": "Laura",
+    "playValue": "0.20000000",
+    "playWinAmount": "0.20631321"
+  },
+  {
+    "id": 10,
+    "gameIcon": "https://coins.game/assets/svgGame/Dice.svg",
+    "gameName": "Dice",
+    "playerName": "Matthew",
+    "playValue": "0.20000000",
+    "playWinAmount": "0.20631159"
+  }
+]

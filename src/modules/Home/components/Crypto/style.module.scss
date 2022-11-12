@@ -1,0 +1,57 @@
+.features {
+  background: #161f2c;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 16px;
+  margin-top: 20px;
+  .swiper {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    column-gap: 6px;
+    .inner {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+      border-radius: 12px;
+      overflow: hidden;
+      width: 100%;
+      min-height: 90px;
+      .buttona {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background-color: #202a39;
+        border-radius: 5px;
+        padding: 16px;
+        width: 100%;
+        align-items: center;
+        text-decoration: none;
+        overflow: hidden;
+        border: none;
+        text-align: left;
+        span{
+            font-weight: 700;
+            font-size: 16px;
+            color: white;
+            max-width: 50%;
+            text-align: left;
+        }
+      }
+      .buttonb{
+        background-color: #202a39;
+        border-radius: 5px;
+        padding: 16px;
+        width: 100%;
+        align-items: center;
+        text-decoration: none;
+        text-align: left;
+        border: none;
+        span{
+            font-weight: 700;
+            font-size: 16px;
+            color: white;
+            max-width: 50%;
+        }
+      }
+    }
+  }
+}

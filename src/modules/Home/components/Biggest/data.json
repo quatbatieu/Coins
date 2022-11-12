@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "playerAvatarUrl": "https://coins.game/assets/image/b1.png",
+    "playerName": "NeldonAn",
+    "playerRank": "Top Winner #1",
+    "playAmount": "+164.000000 USD",
+    "playUnit": "https://coins.game/assets/image/topprofit.png"
+  },
+  {
+    "id": 2,
+    "playerAvatarUrl": "https://coins.game/assets/image/b2.png",
+    "playerName": "ShinaberyBr",
+    "playerRank": "Top Winner #2",
+    "playAmount": "+0.04500000 USD",
+    "playUnit": "https://coins.game/assets/image/topprofit.png"
+  },
+  {
+    "id": 3,
+    "playerAvatarUrl": "https://coins.game/assets/image/b3.png",
+    "playerName": "HaigwoodSa",
+    "playerRank": "Top Winner #3",
+    "playAmount": "+50.0000000 USD",
+    "playUnit": "https://coins.game/assets/image/topprofit.png"
+  }
+]

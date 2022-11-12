@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "tabItemText":"Lobby",
+    "tabItemIcon":"https://coins.game/assets/image/lobby.png"
+  },
+  {
+    "id": 2,
+    "tabItemText":"Originals",
+    "tabItemIcon":"https://coins.game/assets/image/originalcasino.png"
+  },
+  {
+    "id": 3,
+    "tabItemText":"New",
+    "tabItemIcon":"https://coins.game/assets/image/gameshow.png"
+  },
+  {
+    "id": 4,
+    "tabItemText":"Slots",
+    "tabItemIcon":"https://coins.game/assets/image/slots.png"
+  },
+  {
+    "id": 5,
+    "tabItemText":"Live Casino",
+    "tabItemIcon":"https://coins.game/assets/image/livecasino.png"
+  },
+  {
+    "id": 6,
+    "tabItemText":"Table Games",
+    "tabItemIcon":"https://coins.game/assets/image/tablegame.png"
+  }
+]

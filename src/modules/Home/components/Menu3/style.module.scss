@@ -1,0 +1,32 @@
+.center {
+  margin-top: 50px;
+  .topb {
+    margin-bottom: 30px;
+    p {
+      color: #f5f6f7;
+      font: 800 18px/18px FuturaBold;
+      margin: 2px auto 0 0.625rem;
+    }
+  }
+  .botb {
+    display: flex;
+    flex-wrap: nowrap;
+    .oid {
+      width: 170px;
+      margin-right: 37px;
+      background: #24262b no-repeat center center;
+      height: 3.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      transition: all 0.4s ease;
+      img{
+        width: 80%;
+      }
+    }
+    .oid:hover{
+        cursor: pointer;
+    }
+  }
+}

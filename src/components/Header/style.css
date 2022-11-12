@@ -1,0 +1,75 @@
+.sidebar{
+    background: #161f2c;
+    margin-top: 60px;
+    padding-top: 30px;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: auto;
+    transition: all 0.5s;
+    transition-property: left;
+    z-index: 9;
+}
+.sidebar a{
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    transition-property: background;
+}
+.sidebar a img{
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+.sidebar a:hover{
+    background: #19b3d3;
+}
+#check:checked ~ .sidebar{
+    left: -190px;
+}
+#check:checked ~ .sidebar a{
+    font-size: 20px;
+    margin-left: 160px;
+    width: 90px;
+}
+#check:checked ~ .sidebar a  span{
+    display: none;
+}
+#check{
+    display: none;
+}
+.botb{
+    margin-bottom: 2rem;
+}
+.botb .netw{
+    width: 100%;
+}
+.botb .netw span{
+    color: #fff;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    width: 100%;
+    border-top: 1px solid grey;
+    display: block;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.botb .netw .social{
+   display: flex; 
+   flex-wrap: nowrap;
+   width: 100%;
+}
+.botb .netw .social img{
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+.botb .netw .social img:hover{
+    cursor: pointer;
+}
