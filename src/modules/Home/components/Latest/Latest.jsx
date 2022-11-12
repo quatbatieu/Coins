@@ -7,7 +7,7 @@ const Latest = () => {
     <div className={scss.center}>
       <div className={scss.title}>
         <div className={scss.bigwin}>
-          <p>BIGGEST WINNERS TODAY</p>
+          <p>LATEST BESTS</p>
         </div>
         <div className={scss.tablea}>
           <div className={scss.righta}>
@@ -15,10 +15,10 @@ const Latest = () => {
               <thead>
                 <tr>
                   <th>GameIcon</th>
-                  <th>GameName</th>
+                  <th className={scss.th1}>GameName</th>
                   <th>PlayerName</th>
-                  <th style={{padding:"0 0 15px 150px"}}>PlayValue</th>
-                  <th>PlayWinAmount</th>
+                  <th style={{padding:"0 0 15px 150px"}} className={scss.th1}>PlayValue</th>
+                  <th >PlayWinAmount</th>
                 </tr>
               </thead>
               <tbody>
@@ -28,9 +28,9 @@ const Latest = () => {
                       <td >
                         <img src={value.gameIcon} alt="" />
                       </td>
-                      <td >{value.gameName}</td>
+                      <td className={scss.th1}>{value.gameName}</td>
                       <td >{value.playerName}</td>
-                      <td >{value.playValue}</td>
+                      <td className={scss.th1}>{value.playValue}</td>
                       <td style={{color:"#43b309"}}>{value.playWinAmount}</td>
                     </tr>
                   );

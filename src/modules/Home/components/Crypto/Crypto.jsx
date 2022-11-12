@@ -10,7 +10,7 @@ const Crypto = () => {
           <button className={scss.buttonb}><span>Cashback up to 15%</span></button>
           <button className={scss.buttonb}><span>Rakeback</span></button>
         </div>
-        <div className={scss.inner}>
+        <div className={scss.inners}>
           <button className={scss.buttona}><span>Vip Club </span></button>
           <button className={scss.buttonb}><span>Free Boxes</span></button>
           <button className={scss.buttonb}><span>Promocodes </span></button>

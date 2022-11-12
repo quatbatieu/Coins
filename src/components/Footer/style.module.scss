@@ -7,8 +7,8 @@
     max-width: 1328px;
     padding: 0 50px;
     line-height: 2;
-    .imgs{
-        padding-left: 20px;
+    .imgs {
+      padding-left: 20px;
     }
     .flexa {
       display: flex;
@@ -94,70 +94,124 @@
             }
           }
         }
-        .currencies{
-            margin-top: 24px;
-            .list{
-                margin-top: 10px;
-                display: flex;
-                flex-wrap: wrap;
-                .itema{
-                    margin-right: 16px;
-                    img{
-                        border-radius: 50%;
-                        background-color: white;
-                        width: 22px;
-                        height: 22px;
-                    }
-                }
+        .currencies {
+          margin-top: 24px;
+          .list {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            .itema {
+              margin-right: 16px;
+              img {
+                border-radius: 50%;
+                background-color: white;
+                width: 22px;
+                height: 22px;
+              }
             }
+          }
         }
       }
     }
-    .license{
+    .license {
+      display: flex;
+      border-top: 1px solid #afc5d426;
+      border-bottom: 1px solid #afc5d426;
+      padding: 20px 0;
+      margin-top: 30px;
+      .layit {
+        width: 55%;
         display: flex;
-        border-top: 1px solid #afc5d426;
-        border-bottom: 1px solid #afc5d426;
-        padding: 20px 0;
-        margin-top: 30px;
-        .layit{
-            width: 55%;
-            display: flex;
-            align-items: center;
-            padding: 10px 0;
-            border-right: 1px solid #afc5d426;
-            .desc{
-                padding-left: 10px;
-                font-size: 13px;
-                line-height: 1.4;
-                display: flex;
-                img{
-                    width: 150px;
-                    height: 50px;
-                }
-                p{
-                    padding-left: 44px;
-                }
-            }
+        align-items: center;
+        padding: 10px 0;
+        border-right: 1px solid #afc5d426;
+        .desc {
+          padding-left: 10px;
+          font-size: 13px;
+          line-height: 1.4;
+          display: flex;
+          img {
+            width: 150px;
+            height: 50px;
+          }
+          p {
+            padding-left: 44px;
+          }
         }
-        .cert{
-            width: 45%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-left: 40px;
-            padding-left: 50px;
-            fill: #555b65;
-        }
+      }
+      .cert {
+        width: 45%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 40px;
+        padding-left: 50px;
+        fill: #555b65;
+      }
     }
-    .copyright{
-        font-size: 12px;
-        color: #555b65;
-        text-align: center;
+    .copyright {
+      font-size: 12px;
+      color: #555b65;
+      text-align: center;
     }
   }
 }
-@media all and (max-width : 576px) {
-  .footer{
-    display: none;
+@media all and (max-width: 576px) {
+  .footer {
+    .container {
+      .flexa {
+        display: grid;
+        grid-template-columns: 1fr;
+        .desc {
+          padding-bottom: 20px;
+        }
+        .line {
+          border-bottom: 1px solid rgba(175, 197, 212, 0.1490196078);
+          height: 0;
+        }
+        .entris {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+        }
+        .us {
+          text-align: center;
+          .contact {
+            .info {
+              display: grid;
+              grid-template-rows: 1fr 1fr;
+              .right {
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+      .license {
+        display: block;
+        grid-template-columns: 1fr;
+        .layit {
+          display: block;
+          grid-template-rows: 1fr;
+          width: calc(100% / 1);
+          border-bottom: 1px solid rgba(175, 197, 212, 0.1490196078);
+          border-right: none;
+          .desc {
+            display: block;
+            img {
+              width: 80%;
+              margin-bottom: 15px;
+            }
+          }
+        }
+        .cert {
+          width: 100%;
+          margin: 0;
+          padding: 0;
+        }
+      }
+      .copyright {
+        margin-bottom: 15px;
+      }
+    }
   }
 }

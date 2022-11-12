@@ -19,8 +19,8 @@
     background: #202a39;
     border-radius: 0 15px 15px 15px;
     .imgs {
-      display: flex;
-      flex-wrap: nowrap;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
       padding: 20px;
       img {
         margin-right: 15px;
@@ -33,6 +33,19 @@
     }
     .imgs:hover {
       cursor: pointer;
+    }
+  }
+}
+@media all and (max-width: 576px) {
+  .center {
+    .slider {
+      .imgs {
+        display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+        img {
+          width: 117px;
+        }
+      }
     }
   }
 }

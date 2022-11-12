@@ -316,4 +316,34 @@ html {
     }
   } 
 }
+@media all and (max-width : 576px){
+  .title{
+    .header{
+      width: 94%;
+      .container{
+        .logo{
+          padding: 0;
+        }
+        .icona{
+          display: none;
+        }
+        .navbar{
+          padding: 0;
+          .left{
+            display: none;
+          }
+          .chat{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .chat{
+    display: none;
+  }
+  .help{
+    display: none;
+  }
+}
 

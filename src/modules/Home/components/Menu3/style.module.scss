@@ -9,24 +9,35 @@
     }
   }
   .botb {
-    display: flex;
-    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     .oid {
-      width: 170px;
+      width: 168px;
       margin-right: 37px;
       background: #24262b no-repeat center center;
       height: 3.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      display: grid;
+      grid-template-rows: 1fr;
       border-radius: 10px;
       transition: all 0.4s ease;
       img{
-        width: 80%;
+        width: 100%;
       }
     }
     .oid:hover{
         cursor: pointer;
+    }
+  }
+}
+@media all and (max-width : 576px){
+  .center{
+    padding-top: 320px;
+    .botb{
+      grid-template-columns: 1fr 1fr 1fr;
+      .oid{
+        margin-bottom: 20px;
+        width: 110px;
+      }
     }
   }
 }

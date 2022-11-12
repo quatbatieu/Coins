@@ -15,20 +15,17 @@
       padding: 1rem;
       background-color: #161f2c;
       border-radius: 1.25rem;
-      display: flex;
-      -webkit-box-pack: justify;
-      justify-content: space-between;
-      flex-wrap: nowrap;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       .lefta {
         overflow: visible;
         align-self: center;
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         .info {
           position: relative;
           z-index: 1;
           width: 100%;
-          padding: 3rem 0 2.25rem 1.5rem;
-          margin: -1rem 0;
           .tit {
             color: #f5f6f7;
             font-weight: 700;
@@ -59,12 +56,10 @@
           padding: 3rem 0 2.25rem 1.5rem;
           margin: -1rem 0;
           img {
-            padding-left: 15px;
             position: absolute;
-            width: auto;
-            height: 100%;
-            left: 10px;
-            top: 0;
+            height: 120%;
+            right: 12px;
+            bottom: -20px;
           }
         }
       }
@@ -105,6 +100,30 @@
               color: #43b309;
               padding-left: 50px;
               padding-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media all and (max-width : 576px){
+  .center{
+    .title{
+      .tablea{
+        .lefta{
+          display: none;
+        }
+        .righta{
+          width: 380px;
+          tbody{
+            tr{
+              .td1{
+                padding: 16px 0px;
+              }
+              .td4{
+                display: none;
+              }
             }
           }
         }

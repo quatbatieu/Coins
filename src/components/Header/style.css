@@ -73,3 +73,8 @@
 .botb .netw .social img:hover{
     cursor: pointer;
 }
+@media all and (max-width : 576px){
+    .sidebar{
+        display: none;
+    }
+}

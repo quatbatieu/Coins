@@ -9,7 +9,7 @@ const Menu = () => {
         <div className={scss.polite}>
           {data.map((value) => {
             return (
-              <div key={value.id}>
+              <div key={value.id} className={scss.aio}>
                 <button className={scss.button1}>
                   <div className={scss.inner}>
                     <div className={scss.box}>
