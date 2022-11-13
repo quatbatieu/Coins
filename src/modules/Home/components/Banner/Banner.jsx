@@ -51,7 +51,7 @@ const Banner = () => {
                   width={"100%"}
                   height={"300px"}
                   className="rounded-3"
-                  src="./img/c6.jpg"
+                  src="./assets/images/c6.jpg"
                   alt=""
                 />
                 <span>{value.bannerImageReferUrl}</span>

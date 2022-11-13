@@ -8,19 +8,19 @@ const Menu2 = () => {
         <span>Need cryptocurrency? Buy using a card.</span>
         <ul>
           <li>
-            <img src="./img/1.png" alt="" />
+            <img src="./assets/images/1.png" alt="" />
           </li>
           <li>
-            <img src="./img/2.png" alt="" />
+            <img src="./assets/images/2.png" alt="" />
           </li>
           <li>
-            <img src="./img/3.png" alt="" />
+            <img src="./assets/images/3.png" alt="" />
           </li>
           <li>
-            <img src="./img/4.png" alt="" />
+            <img src="./assets/images/4.png" alt="" />
           </li>
           <li>
-            <img src="./img/5.png" alt="" />
+            <img src="./assets/images/5.png" alt="" />
           </li>
         </ul>
         <button>Buy Cryptocurrency</button>

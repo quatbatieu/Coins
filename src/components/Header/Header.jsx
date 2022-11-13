@@ -24,7 +24,7 @@ const Header = () => {
         <div className={scss.container}>
           <div className={scss.logo}>
             <a href="">
-              <img src="./img/js.png" alt="" />
+              <img src="./assets/images/js.png" alt="" />
             </a>
           </div>
           <button className={scss.icona}>
@@ -114,16 +114,16 @@ const Header = () => {
             <span className={scss.hfo}>
               <span className={scss.h8u}>
                 <span className={scss.yqf}>
-                  <img src="./img/a1.png" alt="" />
+                  <img src="./assets/images/a1.png" alt="" />
                 </span>
                 <span className={scss.yqf}>
-                  <img src="./img/a2.png" alt="" />
+                  <img src="./assets/images/a2.png" alt="" />
                 </span>
                 <span className={scss.yqf}>
-                  <img src="./img/a3.png" alt="" />
+                  <img src="./assets/images/a3.png" alt="" />
                 </span>
                 <span className={scss.yqf}>
-                  <img src="./img/a4.png" alt="" />
+                  <img src="./assets/images/a4.png" alt="" />
                 </span>
               </span>
             </span>
@@ -133,7 +133,7 @@ const Header = () => {
         <div className={scss.bota}>
           <div className={scss.dsa}>
             <span className={scss.yqfa}>
-              <img src="./img/a4.png" alt="" />
+              <img src="./assets/images/a4.png" alt="" />
             </span>
             <div className={scss.hia}>
               <p className={scss.oiu}>Coins.game</p>
@@ -149,78 +149,78 @@ const Header = () => {
           </div>
           <div className={scss.bb}>
             <span>
-              <img src="./img/a5.png" alt="" />
+              <img src="./assets/images/a5.png" alt="" />
             </span>
             <span>
-              <img src="./img/a6.png" alt="" />
+              <img src="./assets/images/a6.png" alt="" />
             </span>
           </div>
         </div>
       </div>
       <div className={scss.help} onClick={() => opena()}>
-        <img src="./img/a7.png" alt="" />
+        <img src="./assets/images/a7.png" alt="" />
       </div>
 
       {/* sidebar */}
 
       <div className="sidebar">
         <a href="#">
-          <img src="./img/b10.png" alt="" />
+          <img src="./assets/images/b10.png" alt="" />
           <span>Home</span>
         </a>
         <a href="#">
-          <img src="./img/b12.png" alt="" />
+          <img src="./assets/images/b12.png" alt="" />
           <span>Originals </span>
         </a>
         <a href="#">
-          <img src="./img/b11.png" alt="" />
+          <img src="./assets/images/b11.png" alt="" />
           <span>Live Casino </span>
         </a>
         <a href="#">
-          <img src="./img/b1.png" alt="" />
+          <img src="./assets/images/b1.png" alt="" />
           <span>Sport </span>
         </a>
         <a href="#">
-          <img src="./img/b2.png" alt="" />
+          <img src="./assets/images/b2.png" alt="" />
           <span>Esport</span>
         </a>
         <a href="#">
-          <img src="./img/b3.png" alt="" />
+          <img src="./assets/images/b3.png" alt="" />
           <span>Slots </span>
         </a>
         <a href="#">
-          <img src="./img/b4.png" alt="" />
+          <img src="./assets/images/b4.png" alt="" />
           <span>Promotions </span>
         </a>
         <a href="#">
-          <img src="./img/b5.png" alt="" />
+          <img src="./assets/images/b5.png" alt="" />
           <span>Affiliate </span>
         </a>
         <a href="#">
-          <img src="./img/b6.png" alt="" />
+          <img src="./assets/images/b6.png" alt="" />
           <span>Vip Club </span>
         </a>
         <a href="#">
-          <img src="./img/b7.png" alt="" />
+          <img src="./assets/images/b7.png" alt="" />
           <span>Free Boxes </span>
         </a>
         <a href="#">
-          <img src="./img/b8.png" alt="" />
+          <img src="./assets/images/b8.png" alt="" />
           <span>Tournaments </span>
         </a>
         <a href="#">
-          <img src="./img/b9.png" alt="" />
+          <img src="./assets/images/b9.png" alt="" />
           <span>Help Center</span>
         </a>
         <div className="botb" id="closeb">
           <div className="netw">
             <span>Social Media</span>
             <div className="social">
-              <img src="./img/c1.png" alt="" />
-              <img src="./img/c2.png" alt="" />
-              <img src="./img/c3.png" alt="" />
-              <img src="./img/c4.png" alt="" />
-              <img src="./img/c5.png" alt="" />
+              <img src="./assets/images/c1.png" alt="" />
+              <img src="./assets/images/c2.png" alt="" />
+              <img src="./assets/images/c3.png" alt="" />
+              <img src="./assets/images/c4.png" alt="" />
+              <img src="./assets/images/c5.png" alt="" />
             </div>
           </div>
         </div>

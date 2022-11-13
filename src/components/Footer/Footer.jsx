@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className={scss.footer}>
       <div className={scss.container}>
-        <img src="./img/js.png" alt="" className={scss.imgs} />
+        <img src="./assets/images/js.png" alt="" className={scss.imgs} />
         <div className={scss.flexa}>
           <div className={scss.desc}>
             "This website offers gambling with a risk factor. You must be over
@@ -44,40 +44,40 @@ const Footer = () => {
               <div className={scss.ttu}>ACCEPTED CURRENCIES</div>
               <div className={scss.list}>
                 <div class={scss.itema}>
-                  <img src="./img/1.png" alt="" />
+                  <img src="./assets/images/1.png" alt="" />
                 </div>
                 <div class={scss.itema}>
-                  <img src="./img/2.png" alt="" />
+                  <img src="./assets/images/2.png" alt="" />
                 </div>
                 <div class={scss.itema}>
-                  <img src="./img/3.png" alt="" />
+                  <img src="./assets/images/3.png" alt="" />
                 </div>
                 <div class={scss.itema}>
-                  <img src="./img/4.png" alt="" />
+                  <img src="./assets/images/4.png" alt="" />
                 </div>
                 <div class={scss.itema}>
-                  <img src="./img/5.png" alt="" />
+                  <img src="./assets/images/5.png" alt="" />
                 </div>
                 <div class={scss.itema}>
-                  <img src="./img/6.png" alt="" />
+                  <img src="./assets/images/6.png" alt="" />
                 </div>
                 <div class={scss.itema}>
-                  <img src="./img/7.png" alt="" />
+                  <img src="./assets/images/7.png" alt="" />
                 </div>
                 <div class={scss.itema}>
-                  <img src="./img/8.png" alt="" />
+                  <img src="./assets/images/8.png" alt="" />
                 </div>
                 <div class={scss.itema}>
-                  <img src="./img/9.png" alt="" />
+                  <img src="./assets/images/9.png" alt="" />
                 </div>
                 <div class={scss.itema}>
-                  <img src="./img/10.png" alt="" />
+                  <img src="./assets/images/10.png" alt="" />
                 </div>
                 <div class={scss.itema}>
-                  <img src="./img/11.png" alt="" />
+                  <img src="./assets/images/11.png" alt="" />
                 </div>
                 <div class={scss.itema}>
-                  <img src="./img/12.png" alt="" />
+                  <img src="./assets/images/12.png" alt="" />
                 </div>
               </div>
             </div>
@@ -86,7 +86,7 @@ const Footer = () => {
         <div className={scss.license}>
           <div className={scss.layit}>
             <div className={scss.desc}>
-              <img src="./img/SimpleLogo.png" alt="" />
+              <img src="./assets/images/SimpleLogo.png" alt="" />
               <p>
                 Coins.Game is operated by Royal Way N.V. (Commercial register of
                 Curaçao no. 161620, Abraham de Veerstraat 9, Willemstad,
