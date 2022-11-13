@@ -36,6 +36,22 @@
     }
   }
 }
+@media all and (max-width: 1280px) {
+  .center {
+    .slider {
+      .imgs {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        .ito {
+          margin-bottom: 20px;
+          img {
+            width: 130px;
+          }
+        }
+      }
+    }
+  }
+}
 @media all and (max-width: 992px) {
   .center {
     .slider {

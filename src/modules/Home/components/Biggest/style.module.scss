@@ -107,6 +107,34 @@
     }
   }
 }
+@media all and (max-width : 1280px){
+  .center{
+    .title{
+      .tablea{
+        .lefta{
+          .ito{
+            img{
+              display: none;
+            }
+          }
+        }
+        .righta{
+          width: 770px;
+          tbody{
+            tr{
+              .td1{
+                padding: 16px 30px;
+              }
+              .td5{
+                padding-left: 170px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 @media all and (max-width : 992px){
   .center{
     .title{

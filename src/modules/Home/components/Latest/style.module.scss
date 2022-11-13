@@ -43,6 +43,39 @@
     }
   }
 }
+@media all and (max-width : 1280px ){
+  .center{
+    .title{
+      .tablea{
+        .righta{
+          table{
+            thead{
+              tr{
+                .th1{
+                  padding-right: 120px;
+                }
+                th{
+                  padding-left: 0;
+                  padding-right: 120px;
+                }
+              }
+            }
+            tbody{
+              tr{
+                td{
+                  padding-left: 25px;
+                }
+                .th1{
+                  padding: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 @media all and (max-width : 992px ){
   .center{
     .title{

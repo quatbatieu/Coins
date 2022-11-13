@@ -112,7 +112,7 @@ html {
                 width: 310px;
                 color: #fff;
               }
-              input:focus{
+              input:focus {
                 outline: none;
               }
             }
@@ -216,7 +216,7 @@ html {
         }
       }
     }
-    .topa:hover{
+    .topa:hover {
       cursor: pointer;
     }
     .bota {
@@ -235,16 +235,16 @@ html {
             border-radius: 50%;
           }
         }
-        .hia{
+        .hia {
           position: relative;
-          .oiu{
+          .oiu {
             color: #92a9c1;
             font-size: 12px;
             line-height: 14px;
             margin-bottom: 6px;
             padding-left: 10px;
           }
-          .igo{
+          .igo {
             padding-left: 10px;
             padding: 10px 10px;
             background-color: #009fdf;
@@ -253,7 +253,7 @@ html {
           }
         }
       }
-      .pw{
+      .pw {
         background-color: #fff;
         box-sizing: border-box;
         height: 50px;
@@ -263,22 +263,22 @@ html {
         right: 0;
         bottom: 44px;
         z-index: 6;
-        form{
+        form {
           display: block;
           border-top: 1px solid grey;
-          input{
+          input {
             width: 100%;
             height: auto;
             border-radius: 20px;
             padding: 5px 20px;
             border: none;
           }
-          input:focus{
+          input:focus {
             outline: none;
           }
         }
       }
-      .bb{
+      .bb {
         background: #fff;
         height: 44px;
         padding: 0 20px;
@@ -286,22 +286,22 @@ html {
         position: absolute;
         bottom: 0;
         left: 0;
-        span{
+        span {
           padding-left: 15px;
-          img{
+          img {
             color: #a8bacd;
             width: 25px;
             height: 25px;
             opacity: 0.5;
           }
-          img:hover{
+          img:hover {
             cursor: pointer;
           }
         }
       }
     }
   }
-  .help{
+  .help {
     position: fixed;
     right: 30px;
     bottom: 70px;
@@ -311,94 +311,112 @@ html {
     border-radius: 50%;
     background: #2b2e35;
     cursor: pointer;
-    img{
+    img {
       fill: #555b65;
     }
-  } 
+  }
 }
-@media all and (max-width : 992px){
-  .title{
-    .header{
+@media all and (max-width: 1280px) {
+  .title {
+    .header {
       width: 100%;
-      .container{
-        .logo{
+      .container {
+        .logo {
           padding-right: 50px;
         }
-        .icona{
+        .navbar {
+          .right {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  .help {
+    display: none;
+  }
+}
+@media all and (max-width: 992px) {
+  .title {
+    .header {
+      width: 100%;
+      .container {
+        .logo {
+          padding-right: 50px;
+        }
+        .icona {
           margin-right: 290px;
         }
-        .navbar{
+        .navbar {
           margin-left: 0;
-          .left{
+          .left {
             display: none;
           }
         }
       }
     }
   }
-  .help{
+  .help {
     display: none;
   }
 }
-@media all and (max-width : 768px){
-  .title{
-    .header{
+@media all and (max-width: 768px) {
+  .title {
+    .header {
       width: 94%;
-      .container{
-        .logo{
+      .container {
+        .logo {
           padding-right: 240px;
         }
-        .icona{
+        .icona {
           display: none;
         }
-        .navbar{
+        .navbar {
           padding: 0;
-          .left{
+          .left {
             display: none;
           }
-          .chat{
+          .chat {
             display: none;
           }
         }
       }
     }
   }
-  .chat{
+  .chat {
     display: none;
   }
-  .help{
+  .help {
     display: none;
   }
 }
-@media all and (max-width : 576px){
-  .title{
-    .header{
+@media all and (max-width: 576px) {
+  .title {
+    .header {
       width: 94%;
-      .container{
-        .logo{
+      .container {
+        .logo {
           padding: 0;
         }
-        .icona{
+        .icona {
           display: none;
         }
-        .navbar{
+        .navbar {
           padding: 0;
-          .left{
+          .left {
             display: none;
           }
-          .chat{
+          .chat {
             display: none;
           }
         }
       }
     }
   }
-  .chat{
+  .chat {
     display: none;
   }
-  .help{
+  .help {
     display: none;
   }
 }
-
-
