@@ -15,7 +15,7 @@ const Games = () => {
         <div className={scss.imgs}>
           {data.map((value) => {
             return (
-              <div key={value.key} >
+              <div key={value.key} className={scss.ito}>
                 <img src={value.image} alt="" />
               </div>
             );

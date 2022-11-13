@@ -17,7 +17,7 @@ const Latest = () => {
                   <th>GameIcon</th>
                   <th className={scss.th1}>GameName</th>
                   <th>PlayerName</th>
-                  <th style={{padding:"0 0 15px 150px"}} className={scss.th1}>PlayValue</th>
+                  <th className={scss.th1}>PlayValue</th>
                   <th >PlayWinAmount</th>
                 </tr>
               </thead>

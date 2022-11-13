@@ -32,6 +32,11 @@
     }
   }
 }
+@media all and (max-width : 992px){
+  .center{
+    display: none;
+  }
+}
 @media all and (max-width : 768px){
   .center{
     display: none;

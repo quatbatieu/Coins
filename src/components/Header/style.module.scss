@@ -316,6 +316,30 @@ html {
     }
   } 
 }
+@media all and (max-width : 992px){
+  .title{
+    .header{
+      width: 100%;
+      .container{
+        .logo{
+          padding-right: 50px;
+        }
+        .icona{
+          margin-right: 290px;
+        }
+        .navbar{
+          margin-left: 0;
+          .left{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .help{
+    display: none;
+  }
+}
 @media all and (max-width : 768px){
   .title{
     .header{
