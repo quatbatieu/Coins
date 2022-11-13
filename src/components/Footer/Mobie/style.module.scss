@@ -4,7 +4,7 @@
     background: #161f2c;
     position: fixed;
     bottom: 0;
-    width: 414px;
+    width: 100%;
     height: 58px;
     z-index: 10;
     display: flex;
@@ -37,6 +37,16 @@
         line-height: 10px;
         height: 100%;
         text-transform: uppercase;
+      }
+    }
+  }
+}
+@media all and (max-width: 768px) {
+  .hio {
+    display:block;
+    .center{
+      .menu{
+        margin-right: 50px;
       }
     }
   }

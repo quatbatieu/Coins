@@ -49,6 +49,26 @@
   }
 }
 
+@media all and (max-width: 768px) {
+  .center {
+    margin-top: 150px;
+    position: absolute;
+    left: 50%;
+    .title {
+      grid-template-columns: 1fr;
+      height: 200px;
+      width: 100%;
+      ul{
+        li{
+          padding: 15px 15px; 
+        }
+      }
+      button{
+        margin-left: 100px;
+      }
+    }
+  }
+}
 @media all and (max-width: 576px) {
   .center {
     position: absolute;

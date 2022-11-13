@@ -40,6 +40,32 @@
     }
   }
 }
+@media all and (max-width: 768px) {
+  .center {
+    position: absolute;
+    max-width: 100%;
+    margin-top: 60px;
+    .lobby {
+      .polite {
+        grid-template-columns: 1fr 1fr 1fr;
+        .aio {
+          margin-bottom: 15px;
+          .button1 {
+            margin-bottom: 20px;
+            color: white;
+            font-weight: 400;
+            background: #2283f6;
+            border: none;
+            border-radius: 30px;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
 @media all and (max-width: 576px) {
   .center {
     position: absolute;
